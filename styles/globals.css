@@ -1,26 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+    html {
+        color-scheme: dark;
+    }
+    body {
+        color: white;
+        background: black;
+    }
+}
+.scale:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.scale:hover * {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+.filter {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(90px);
+    background-color: rgba(20, 184, 165, 0.966);
+    filter: blur(40px);
+    z-index: -1;
+}
+
+.animateBox {
+    animation-name: box;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-timing-function: ease-in-out; */
+    position: absolute;
+    top: -50px;
+    /* z-index: 1; */
+}
+
+@keyframes box {
+    0% {
+        transform: translate(0) scale(1);
+    }
+    33% {
+        transform: translate(30px, -50px) scale(1.1);
+    }
+    66% {
+        transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+        transform: translate(0) scale(1);
+    }
+}
+
+.bg {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.miniBg {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.slantRight {
+    transform: rotate(10deg);
+}
+.slantLeft {
+    transform: rotate(-10deg);
+}
+.sliderHover {
+    transition: all 0.8s;
+}
+.sliderHover:hover {
+    transform: rotate(7deg);
+    transition: all 0.8s;
+}
+@media screen and (max-width: 560px) {
+    .slantRight {
+        transform: rotate(15deg);
+    }
 }
