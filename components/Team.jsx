@@ -33,7 +33,7 @@ const Team = () => {
                         <SimpleGrid minChildWidth={"250px"} gap="32px">
                             {team.map((team, i) => {
                                 return (
-                                    <Box maxW="250px" minH="200px" key="i">
+                                    <Box maxW="250px" minH="200px" key="i" mx="auto">
                                         <Image
                                             shadow="lg"
                                             className="sliderHover"
