@@ -33,7 +33,12 @@ const Team = () => {
                         <SimpleGrid minChildWidth={"250px"} gap="32px">
                             {team.map((team, i) => {
                                 return (
-                                    <Box maxW="250px" minH="200px" key="i" mx="auto">
+                                    <Box
+                                        maxW="250px"
+                                        minH="200px"
+                                        key="i"
+                                        mx="auto"
+                                    >
                                         <Image
                                             shadow="lg"
                                             className="sliderHover"
@@ -56,7 +61,7 @@ const Team = () => {
                                                     color="brand.white"
                                                     textAlign={"center"}
                                                     maxW="150px"
-						    mb="8px"
+                                                    mb="8px"
                                                 >
                                                     {team.role}
                                                 </Text>
@@ -130,5 +135,10 @@ const team = [
         user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051619292472426647/Screenshot_20221206-235613.jpg",
         role: "Collab manager/ Wl hunter",
         name: "Satomi ",
+    },
+    {
+        user: "https://cdn.discordapp.com/attachments/1049748245217284096/1052660666680475658/Screenshot_20221206-235510.jpg",
+        role: "Artist",
+        name: "Ashen  ",
     },
 ];
