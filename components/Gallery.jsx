@@ -4,7 +4,7 @@ import ScreenSize from "../Layout/ScreenSize";
 import Slider from "./Slider";
 const Gallery = () => {
     return (
-        <Box mt="64px" id="gallery">
+        <Box mt="64px">
             <ScreenSize>
                 <Box>
                     <Box>

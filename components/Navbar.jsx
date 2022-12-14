@@ -44,14 +44,14 @@ export default function Nav() {
             top="0"
             left="0"
             right={"0"}
-            bgColor="brand.blurBg"
-            //     bgColor={"#1f2937"}
+                bgColor="brand.blurBg"
+        //     bgColor={"#1f2937"}
             w="100%"
             backdropFilter="auto"
             backdropBlur="24px"
             color="#fff"
-            //     boxShadow={"md"}
-            zIndex="overlay"
+        //     boxShadow={"md"}
+	    zIndex="overlay"
         >
             <ScreenSize>
                 <Flex
@@ -189,12 +189,21 @@ export default function Nav() {
 
 const NavContent = [
     {
+<<<<<<< HEAD
         href: "#",
         text: "Home",
     },
     {
         href: "#gallery",
         text: "Gallery",
+=======
+        href: "/",
+        text: "Home",
+    },
+    {
+        href: "#whitelist",
+        text: "Whitelist",
+>>>>>>> c88e4ce8a6fa9077b0116a7761c04a6d7f80a0b2
     },
     {
         href: "#about",
