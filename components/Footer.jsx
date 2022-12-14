@@ -25,6 +25,7 @@ const Footer = () => {
                                 borderRadius={"50%"}
                                 cursor="pointer"
                                 className="scale"
+				
                             >
                                 <Icon as={FaDiscord} width="25px" h="25px" />
                             </Flex>

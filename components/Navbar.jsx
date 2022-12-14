@@ -189,21 +189,12 @@ export default function Nav() {
 
 const NavContent = [
     {
-<<<<<<< HEAD
         href: "#",
         text: "Home",
     },
     {
         href: "#gallery",
         text: "Gallery",
-=======
-        href: "/",
-        text: "Home",
-    },
-    {
-        href: "#whitelist",
-        text: "Whitelist",
->>>>>>> c88e4ce8a6fa9077b0116a7761c04a6d7f80a0b2
     },
     {
         href: "#about",
