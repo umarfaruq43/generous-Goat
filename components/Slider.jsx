@@ -49,21 +49,20 @@ const Slider = () => {
                             <Box
                                 key={i}
                                 // overflow={"hidden"}
-                                px={["10px",null,"32px"]}
+                                px={["10px", null, "32px"]}
                                 className="sliderHover"
-				my="20px"
+                                my="20px"
                             >
                                 <Image
                                     src={item}
                                     alt="Slider"
                                     borderRadius="15px"
-				    shadow={"lg"}
+                                    shadow={"lg"}
                                 />
                             </Box>
                         );
                     })}
                 </Carousel>
-                ;
             </ScreenSize>
         </Box>
     );

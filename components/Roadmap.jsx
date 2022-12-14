@@ -5,7 +5,7 @@ import WithSpeechBubbles from "./RoadInfo";
 
 const Roadmap = () => {
     return (
-        <Box bgImage="/about.png" bgPosition={"left"} bgRepeat="no-repeat" bgPos={"cover"}>
+        <Box id="roadmap" bgImage="/about.png" bgPosition={"left"} bgRepeat="no-repeat" bgPos={"cover"}>
             <ScreenSize>
                 <Box pt={["32px", null, "62px"]}>
                     <Text
