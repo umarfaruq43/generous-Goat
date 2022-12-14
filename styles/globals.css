@@ -91,8 +91,9 @@ a {
     transition: all 0.8s;
 }
 .sliderHover:hover {
-    transform: rotate(7deg);
+    /* transform: ; */
     transition: all 0.8s;
+    transform: scale(1.06) rotate(7deg);
 }
 @media screen and (max-width: 560px) {
     .slantRight {
