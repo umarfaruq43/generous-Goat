@@ -9,7 +9,7 @@ const Footer = () => {
             <ScreenSize>
                 <Flex justify={"space-between"} align="center">
                     <Box>
-                        <Flex  gap="15px">
+                        <Flex gap="15px">
                             <Flex
                                 justify={"center"}
                                 align="center"
@@ -25,7 +25,8 @@ const Footer = () => {
                                 borderRadius={"50%"}
                                 cursor="pointer"
                                 className="scale"
-				
+                                as="a"
+                                href="https://discord.gg/s6e3yGWUK4 "
                             >
                                 <Icon as={FaDiscord} width="25px" h="25px" />
                             </Flex>
@@ -45,6 +46,8 @@ const Footer = () => {
                                 borderRadius={"50%"}
                                 cursor="pointer"
                                 className="scale"
+                                as="a"
+                                href="https://twitter.com/GenerousSheep"
                             >
                                 <Icon as={FaTwitter} width="25px" h="25px" />
                             </Flex>
@@ -53,7 +56,9 @@ const Footer = () => {
                     </Box>
                     <Box>
                         <Text fontSize={["14px", null, "18px"]}>
-                            <Text color="brand.white">&copy; 2020 Generous Sheeps</Text>
+                            <Text color="brand.white">
+                                &copy; 2020 Generous Sheeps
+                            </Text>
                         </Text>
                     </Box>
                 </Flex>

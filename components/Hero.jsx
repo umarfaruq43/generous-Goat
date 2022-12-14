@@ -87,6 +87,8 @@ const Hero = () => {
                                     }}
                                     fontSize={["14px", null, "16px"]}
                                     w="fit-content"
+                                    as="a"
+                                    href="https://discord.gg/s6e3yGWUK4 "
                                 >
                                     Join Discord{" "}
                                     <Icon
@@ -107,6 +109,8 @@ const Hero = () => {
                                     }}
                                     fontSize={["14px", null, "16px"]}
                                     w="fit-content"
+				    as="a"
+				    href="https://twitter.com/GenerousSheep"
                                 >
                                     Join Twitter{" "}
                                     <Icon

@@ -44,14 +44,14 @@ export default function Nav() {
             top="0"
             left="0"
             right={"0"}
-                bgColor="brand.blurBg"
-        //     bgColor={"#1f2937"}
+            bgColor="brand.blurBg"
+            //     bgColor={"#1f2937"}
             w="100%"
             backdropFilter="auto"
             backdropBlur="24px"
             color="#fff"
-        //     boxShadow={"md"}
-	    zIndex="overlay"
+            //     boxShadow={"md"}
+            zIndex="overlay"
         >
             <ScreenSize>
                 <Flex
@@ -92,6 +92,8 @@ export default function Nav() {
                                     borderRadius={"50%"}
                                     cursor="pointer"
                                     className="scale"
+                                    as="a"
+                                    href="https://discord.gg/s6e3yGWUK4 "
                                 >
                                     <Icon
                                         as={FaDiscord}
@@ -115,6 +117,8 @@ export default function Nav() {
                                     borderRadius={"50%"}
                                     cursor="pointer"
                                     className="scale"
+                                    as="a"
+                                    href="https://twitter.com/GenerousSheep"
                                 >
                                     <Icon
                                         as={FaTwitter}
