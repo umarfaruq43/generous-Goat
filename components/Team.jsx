@@ -99,7 +99,7 @@ const team = [
     {
         user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051572659575595118/Screenshot_20221206-235759.jpg",
         role: "Founder",
-        name: "Founder Sam",
+        name: "Sam",
     },
     {
         user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051572770548498582/Screenshot_20221206-235522.jpg",
