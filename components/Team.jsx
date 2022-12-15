@@ -97,15 +97,16 @@ export default Team;
 
 const team = [
     {
+        user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051572659575595118/Screenshot_20221206-235759.jpg",
+        role: "Founder",
+        name: "Founder Sam",
+    },
+    {
         user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051572770548498582/Screenshot_20221206-235522.jpg",
         role: "Moderator",
         name: "Moderator Drey",
     },
-    {
-        user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051588247618342912/Screenshot_20221206-235541.jpg",
-        role: "Collab manager",
-        name: "Syanov.e",
-    },
+
     {
         user: "https://cdn.discordapp.com/attachments/1049748245217284096/1051617886931800114/Screenshot_20221206-235656.jpg",
         role: "Moderator",
