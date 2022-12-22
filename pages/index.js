@@ -11,14 +11,14 @@ import Team from "../components/Team";
 export default function Home() {
     return (
         <Box bgColor="brand.primary" minH="100vh" style={{ zindex: -2 }}>
-            <Nav />
+            {/* <Nav />
             <Hero />
             <Gallery />
             <About />
             <Roadmap />
             <Team />
             <Faq />
-            <Footer />
+            <Footer /> */}
         </Box>
     );
 }
